@@ -1,1 +1,84 @@
 /*write css here*/
+
+.main_background {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 2px;
+}
+
+#todo_new {
+    width: 75%;
+    font-size: medium;
+    height: 30px;
+}
+
+#todo_submit {
+    width: 15%;
+    height: 30px;
+}
+
+#todo_tasks > li:hover {
+    font-size: medium;
+    background-color: gray;
+    height: 45px;
+    margin: 5px;
+    list-style-type: none;
+}
+
+.tabs_div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+}
+
+.note_state_button_selected {
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+    border-width: 0px 0px 2px 0px;
+    border-bottom-color: blue;
+}
+
+.note_state_button_unselected {
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+    border-width: 0px 0px 2px 0px;
+    border-bottom-color: white;
+}
+
+.todo_item_pending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:larger;
+    height: 50px;
+    background-color: yellow;
+    margin: 5px;
+    list-style-type: none;
+}
+
+.todo_item_completed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:larger;
+    height: 50px;
+    background-color: limegreen;
+    margin: 5px;
+    list-style-type: none;
+}
+
+.todo_item_hover {
+    font-size: medium;
+    height: 30px;
+    background-color: yellow;
+    margin: 5px;
+    list-style-type: none;
+}
+
+.delete_button {
+    margin: 5px;
+    height: 70%;
+    background-color: lightcoral;
+}

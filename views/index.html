@@ -2,9 +2,33 @@
 <html>
 <head>
     <title>Todo APP</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-Write your code here
+
+
+    <div class="main_background">
+        <h1>TODO App</h1>
+        <form action="" class="form">
+            <input type="text" placeholder="Add todo" id="todo_new" class="form">
+            <input type="submit" name="Add" id="todo_submit" class="form">
+        </form>
+    </div>
+
+    <div class="tabs_div">
+        <button class="note_state_button_selected" id="all_button" >ALL</button>
+        <button class="note_state_button_unselected" id="completed_button">COMPLETED</button>
+        <button class="note_state_button_unselected" id="pending_button">PENDING</button>
+    </div>
+
+    <div>
+        <ul id='todo_tasks'>
+        </ul>
+    </div>
+    <script type="text/javascript" src="js/todo.js"></script>
 </body>
 </html>
+
+
+
